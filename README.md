@@ -20,4 +20,4 @@ How to run the software
 - to generate the Heavy and Light folder, including the Heavy.ali and Ligh.ali files
 
 2.python3 main.py
--Final.pdb
+-to generate the Final.pdb

@@ -1,4 +1,4 @@
-# FABbuild
+# FABbuild (python 3.X)
 Building the 3D FAB (antibody) PDB form amino sequence
 please installing the packages
 

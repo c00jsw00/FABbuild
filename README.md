@@ -15,3 +15,5 @@ config.py:
 install_dir = r'C:/ProgramData/Anaconda3\Library\modeller' 
 license = r'XXXXXXX' 
 -------------------------------------------------------------------
+
+run : python3 main.py

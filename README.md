@@ -19,6 +19,5 @@ How to run the software
 1. bash ali.sh 
 - to generate the Heavy and Light folder, including the Heavy.ali and Ligh.ali files
 
-2.python3 main.py
-
+2. python3 main.py
 -to generate the Final.pdb

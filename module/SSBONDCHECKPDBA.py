@@ -1,3 +1,6 @@
+#######################################################
+#For ssbonds of amber type
+#######################################################
 def SSBONDCHECKPDBA(pdbfile): 
     count = 1
     with open(pdbfile) as file:

@@ -12,6 +12,10 @@ config.py:
 install_dir = r'C:/ProgramData/Anaconda3\Library\modeller' 
 license = r'XXXXXXX' 
 -------------------------------------------------------------------
+4. wget https://ftp.wwpdb.org/pub/pdb/derived_data/pdb_seqres.txt.gz
+5. wget https://salilab.org/modeller/downloads/pdb_95.pir.gz
+6. unzip the two files
+
 How to run the software 
 1. bash ali.sh 
 - to generate the Heavy and Light folder, including the Heavy.ali and Ligh.ali files

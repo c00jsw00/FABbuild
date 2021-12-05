@@ -1,4 +1,4 @@
-# FABbuild (python 3.X) for linux and windoes
+# FABbuild-amber (python 3.X) only for linux 
 Building the 3D FAB (antibody) PDB form amino sequence
 please installing the packages
 

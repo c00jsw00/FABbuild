@@ -15,5 +15,9 @@ config.py:
 install_dir = r'C:/ProgramData/Anaconda3\Library\modeller' 
 license = r'XXXXXXX' 
 -------------------------------------------------------------------
+How to run the software 
+1. bash ali.sh 
+- to generate the Heavy and Light folder, including the Heavy.ali and Ligh.ali files
 
-run : python3 main.py
+2.python3 main.py
+-Final.pdb

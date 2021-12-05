@@ -77,8 +77,13 @@ with open(pdbfile) as file:
                 output.write(line)
 
 cmd1 = 'rm -rf finalfab.pdb'
+##if windos#####################
 cmd2 = '.\TMalign.exe OK.Heavy.pdb Href.pdb -o HH'
 cmd3 = '.\TMalign.exe OK.Light.pdb Lref.pdb -o HL'
+##if linux#######################
+#cmd2 = './TMalign.exe OK.Heavy.pdb Href.pdb -o HH'
+#cmd3 = './TMalign.exe OK.Light.pdb Lref.pdb -o HL'
+################################################
 cmd4 ='cat HH.pdb >> finalfab.pdb'
 cmd5 ='cat TER >> finalfab.pdb'
 cmd6 ='cat HL.pdb >> finalfab.pdb'

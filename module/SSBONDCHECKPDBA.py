@@ -1,4 +1,4 @@
-from test import SSBONDLresidue2
+#from test import SSBONDLresidue2
 def SSBONDCHECKPDBA(pdbfile): 
     count = 1
     with open(pdbfile) as file:

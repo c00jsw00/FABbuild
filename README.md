@@ -7,7 +7,7 @@ please installing the packages
 3. conda install -c msys2 m2-base
 4. conda install -c conda-forge m2w64-gcc-libgfortran
 5. conda install -c anaconda git
-6. git clon https://github.com/c00jsw00/FABbuild.git
+6. git clone https://github.com/c00jsw00/FABbuild.git
 7. g++ -static -O3 -ffast-math -lm -o TMalign TMalign.cpp
 #KEY_MODELLER
 C:/ProgramData/Anaconda3\Library\modeller/modlib/modeller/config.py

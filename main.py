@@ -12,18 +12,18 @@ import os
 dictionary_heavy = { }
 dictionary_light = { } 
 ###heavy chain
-source = r'Heavy/Heavy.ali'
-destination = r'Heavy.ali'
-shutil.copyfile(source,destination)
+#source = r'Heavy/Heavy.ali'
+#destination = r'Heavy.ali'
+#shutil.copyfile(source,destination)
 filename = 'Heavy.ali'
 dictionary_heavy = Homology_modller(filename)
 for file in glob.glob(r'Heavy.*.pdb'):
     shutil.copy(file, 'Heavy.pdb')
 
 ###light chain
-source = r'Light/Light.ali'
-destination = r'Light.ali'
-shutil.copyfile(source,destination)
+#source = r'Light/Light.ali'
+#destination = r'Light.ali'
+#shutil.copyfile(source,destination)
 filename = 'Light.ali'
 dictionary_light = Homology_modller(filename)
 for file in glob.glob(r'Light.*.pdb'):

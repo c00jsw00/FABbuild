@@ -5,6 +5,8 @@ please installing the packages
 1. conda install -c salilab modeller
 2. conda install -c conda-forge m2w64-gcc
 3. g++ -static -O3 -ffast-math -lm -o TMalign TMalign.cpp
+4. conda install -c conda-forge ambertools
+5. conda install -c ambermd pytraj
 
 #KEY_MODELLER
 export KEY_MODELLER=XXXXXXXXXXXX

@@ -1,4 +1,4 @@
-# FABbuild (python 3.X) for linux and windoes
+# FABbuild-tinker (python 3.X) for linux and windoes
 Building the 3D FAB (antibody) PDB form amino sequence
 please installing the packages
 
@@ -18,4 +18,4 @@ license = r'XXXXXXX'
 -------------------------------------------------------------------
 How to run the software 
 1. python3 main.py
-- to generate the Final.pdb
+- to generate the Prediction.pdb

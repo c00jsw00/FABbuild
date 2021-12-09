@@ -45,7 +45,7 @@ def TINKERMD():
     os.system(cmd05)
     os.system(cmd06)
     os.remove('abs.xyz')
-    os.remove('abs_2.xyz')
+    #os.remove('abs_2.xyz')
     os.remove('abs.dyn')
     os.remove('abs.seq')
     source = r'abs.pdb'

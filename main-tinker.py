@@ -79,10 +79,11 @@ with open(pdbfile) as file:
             if (atom == 'ATOM') and (chainid == chainH) :
                 output.write(line)
 
-cmd1 = 'rm -rf Prediction.pdb'
+#cmd1 = 'rm -rf Prediction.pdb'
+os.remove('Prediction.pdb')
 cmd2 = 'tools\\TMalign.exe OK.Heavy.pdb Href.pdb -o HH' ##using "\\"" to instead of "\ or /""
 cmd3 = 'tools\\TMalign.exe OK.Light.pdb Lref.pdb -o HL'
-os.system(cmd1)
+#os.system(cmd1)
 os.system(cmd2)
 os.system(cmd3)
 TINKERMD()

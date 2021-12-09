@@ -1,5 +1,5 @@
 # FABbuild-tinker (python 3.X) for linux and windoes
-Building the 3D FAB (antibody) PDB form amino sequence
+Building the 3D FAB (antibody) PDB form amino sequence (min and md simulations with tinker)
 please installing the packages
 
 1. conda install -c salilab modeller

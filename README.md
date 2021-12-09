@@ -17,5 +17,5 @@ install_dir = r'C:/ProgramData/Anaconda3\Library\modeller'
 license = r'XXXXXXX' 
 -------------------------------------------------------------------
 How to run the software 
-1. python3 main.py
+1. python3 main-tinker.py
 - to generate the Prediction.pdb
